@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login</title>
+    <style>
+        body {
+            background-color: rgb(30, 24, 63);
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+        }
+        .form {
+            background-color: rgb(142, 131, 184);
+            width: 320px;
+            border-radius: 30px;
+            padding: 20px;
+            height: 270px;
+        }
+        .title {
+            text-align: center;
+            color: rgb(240, 237, 233);
+        }
+        .container {
+            width: 320px;
+            padding: 12px;
+        }
+        .input{
+            margin-bottom: 4px;
+            border-radius: 15px;
+            width: 280px;
+            height: 25px;
+            padding-left: 8px;
+            border: none;
+        }
+        .btn {
+          margin-top: 10px;
+            border-radius: 20px;
+            width: 288px; 
+            height: 25px;
+            padding-left: 20px;
+            border: none;
+        }
+        .container p {
+          margin: 10px 0px 0px 45px;
+          font-size: 10px;
+        }
+        .forgot {
+          font-size: 13px;
+          margin-left: 40px;
+        }
+        .me {
+          font-size: 14px;
+        }
+    </style>
+  </head>
+  <body>
+    <form class="form">
+      <div class="title">
+        <h2>Welcome,</h2>
+        <p><b>Please login to your account</b></p>
+      </div>
+      <div class="container">
+        <input type="text" class="input" placeholder="Username or Email" /><br>
+        <input type="password" class="input" placeholder="Password" /><br>
+        <label class="me"><input type="checkbox" class="check" />Remember me</label>
+        <a class="forgot" href="#">Forgot Password?</a><br>
+        <button class="btn">Sign in</button>
+        <p>
+          Don't have an account? <a href="sign_up.html"><b>Register here</b></a>
+        </p>
+      </div>
+    </form>
+  </body>
+</html>
